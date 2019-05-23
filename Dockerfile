@@ -1,5 +1,7 @@
 FROM runmymind/docker-android-sdk:ubuntu-standalone
 
+LABEL maintainer="sarco3t<14gainward88@gmail.com>"
+
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
   && apt-get install -y nodejs bsdtar
 
